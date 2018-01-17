@@ -1,2 +1,4 @@
-#Responsive split screen layout template
+Responsive split screen layout template
+=======================================
+
 Feel free to use it. 
