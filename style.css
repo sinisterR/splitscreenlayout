@@ -4,15 +4,6 @@ html,body{
 	height: 100%;
 }
 
-h2{
-	position: absolute;
-	color: #fff;
-	top: 30px;
-	left: 0px;
-	right: 0px;
-	margin: auto;
-}
-
 h3{
 	color: #0155ff;
 }
@@ -21,6 +12,14 @@ h3{
 	position: relative;
 	height: 100%;
 	margin: 0;
+}
+
+#menuIcon{
+	font-size:50px;
+	cursor:pointer;
+	color:#ffffff;
+	position: absolute;
+	left: 30px;
 }
 
 #leftDiv, #rightDiv{
@@ -62,20 +61,33 @@ h3{
 #about,#portfolio{
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 550px;
 	text-align: center;
 }
-#about p, #portfolio p{
-	color: #fff;
+
+#left_panel{
 	position: absolute;
-	top: 60px;
-	margin-right: 40px;
-	margin-left: 40px;
+	left: 0px;
+	margin: 0px;
+	padding-right: 40px;
+	padding-left: 40px;
+	width: 35%;
+	height: 100%;
+	background-color: #d9b38c;
 }
 
-#about{
-	background-color: red;
+#image_container{
+	background-color: white;
+	line-height: 0;
+	margin-left: 35%;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;
 }
+
 
 #portfolio{
 	background-color: blue;
@@ -111,6 +123,10 @@ h3{
 	line-height: 0.5;
 	padding-left: 40px;
 	padding-top: 5px;
+}
+
+.about_image{
+	width: 100%;
 }
 
 .column{
